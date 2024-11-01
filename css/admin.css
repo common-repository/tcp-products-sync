@@ -1,0 +1,41 @@
+/* recommended plugins*/
+.recommend tr td {
+  border-bottom: 1px solid #e5e5e5
+}
+.recommend .installed {
+  color: green;
+}
+
+/* resellers tab */
+#resellers_table .controls {
+  width: 10%;
+}
+#resellers_table .actions {
+  white-space: nowrap;
+}
+#resellers_table tr.edited {
+  background: #fff2d8;
+}
+#resellers_table .delete { 
+  color: #a00;
+}
+#resellers_table .delete:hover { 
+  color: #dc3232;
+}
+#reseller_form .description.error {
+  color: #a00;
+}
+#reseller_form .cancel {
+  display: none;
+}
+#tcp_plugins_sync_form{
+	margin-top: 10px
+}
+
+/* premium feature list */
+#premium_features tr th:nth-child(2),
+#premium_features tr th:nth-child(3),
+#premium_features tr td:nth-child(2),
+#premium_features tr td:nth-child(3) {
+  text-align: center;
+}
